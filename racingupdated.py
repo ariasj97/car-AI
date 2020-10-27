@@ -22,10 +22,10 @@ WIN = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 pygame.display.set_caption("RacingAI")
 
 #images
-brick_wall_img = pygame.transform.scale2x(pygame.image.load(os.path.join("brick_wall_img.jpg")).convert_alpha())
-bg_img = pygame.transform.scale(pygame.image.load(os.path.join("background3.jpg")).convert_alpha(), (600, 900))
-car_images = pygame.transform.scale2x(pygame.image.load(os.path.join("main_car.jpg")).convert_alpha())
-road_img = pygame.transform.scale2x(pygame.image.load(os.path.join("background3.jpg")).convert_alpha())
+brick_wall_img = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs","brick_wall_img.jpg")).convert_alpha())
+bg_img = pygame.transform.scale(pygame.image.load(os.path.join("imgs","background3.jpg")).convert_alpha(), (600, 900))
+car_images = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs","main_car.jpg")).convert_alpha())
+road_img = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs","background3.jpg")).convert_alpha())
 
 gen = 0
 
